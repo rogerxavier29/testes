@@ -1,5 +1,6 @@
 import React from 'react';
 import { Content, ContentForm } from './styles';
+import Button from './components/Button';
 
 function HomePage() {
   return (
@@ -24,9 +25,7 @@ function HomePage() {
             <input type='text' />
           </div>
 
-          <section>
-            <button type='submit'>Salvar</button>
-          </section>
+          <Button />
         </form>
       </ContentForm>
     </Content>
